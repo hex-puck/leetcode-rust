@@ -1,4 +1,5 @@
 // https://leetcode-cn.com/problems/two-sum/
+#![allow(dead_code)]
 
 use std::{convert::TryInto, hint};
 
