@@ -14,7 +14,7 @@ impl Solution {
             }
         }
 
-        set.len() == LETTER_CNT
+        false
     }
 }
 
