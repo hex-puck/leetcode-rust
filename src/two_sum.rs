@@ -3,8 +3,6 @@
 
 use std::{collections::HashMap, hint};
 
-struct Solution;
-
 impl Solution {
     pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
         let mut cache = HashMap::new();
@@ -23,6 +21,8 @@ impl Solution {
         }
     }
 }
+
+struct Solution;
 
 #[cfg(test)]
 mod test {

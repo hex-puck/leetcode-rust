@@ -1,8 +1,6 @@
 // https://leetcode-cn.com/problems/reverse-integer/
 #![allow(dead_code)]
 
-struct Solution;
-
 impl Solution {
     pub fn reverse(x: i32) -> i32 {
         let signum = x.signum();
@@ -32,6 +30,8 @@ impl Solution {
         }
     }
 }
+
+struct Solution;
 
 #[cfg(test)]
 mod test {
