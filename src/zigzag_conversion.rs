@@ -27,7 +27,6 @@ impl Solution {
                             .for_each(|ch| result.push(*ch))
                     }
                 }
-
                 _ => (row..s.len()).step_by(duration).for_each(|i| {
                     result.push(s[i]);
                     let r = i % duration;
