@@ -1,3 +1,4 @@
+pub mod binary_watch;
 pub mod check_if_the_sentence_is_pangram;
 pub mod longest_common_prefix;
 pub mod reverse_integer;
