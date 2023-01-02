@@ -1,5 +1,4 @@
-// https://leetcode-cn.com/problems/binary-watch/
-#![allow(dead_code)]
+// https://leetcode.cn/problems/binary-watch/
 
 use std::{collections::HashMap, convert::TryInto};
 
@@ -36,7 +35,7 @@ impl Solution {
     }
 }
 
-struct Solution;
+pub struct Solution;
 
 #[cfg(test)]
 mod test {

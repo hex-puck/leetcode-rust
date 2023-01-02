@@ -1,5 +1,4 @@
-// https://leetcode-cn.com/problems/zigzag-conversion/
-#![allow(dead_code)]
+// https://leetcode.cn/problems/zigzag-conversion/
 
 use std::convert::TryInto;
 
@@ -40,7 +39,7 @@ impl Solution {
     }
 }
 
-struct Solution;
+pub struct Solution;
 
 #[cfg(test)]
 mod test {

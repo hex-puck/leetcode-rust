@@ -1,5 +1,4 @@
-// https://leetcode-cn.com/problems/longest-common-prefix/
-#![allow(dead_code)]
+// https://leetcode.cn/problems/longest-common-prefix/
 
 use std::cmp;
 
@@ -34,7 +33,7 @@ impl Solution {
     }
 }
 
-struct Solution;
+pub struct Solution;
 
 #[cfg(test)]
 mod test {

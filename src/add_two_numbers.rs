@@ -1,5 +1,4 @@
-// https://leetcode-cn.com/problems/add-two-numbers/
-#![allow(dead_code)]
+// https://leetcode.cn/problems/add-two-numbers/
 
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
@@ -72,7 +71,7 @@ impl Solution {
     }
 }
 
-struct Solution;
+pub struct Solution;
 
 #[derive(PartialEq, Eq, Clone, Debug)]
 pub struct ListNode {

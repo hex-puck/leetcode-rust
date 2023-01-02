@@ -1,5 +1,4 @@
-// https://leetcode-cn.com/problems/reverse-integer/
-#![allow(dead_code)]
+// https://leetcode.cn/problems/reverse-integer/
 
 impl Solution {
     pub fn reverse(x: i32) -> i32 {
@@ -31,7 +30,7 @@ impl Solution {
     }
 }
 
-struct Solution;
+pub struct Solution;
 
 #[cfg(test)]
 mod test {

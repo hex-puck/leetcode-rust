@@ -1,5 +1,4 @@
-// https://leetcode-cn.com/problems/two-sum/
-#![allow(dead_code)]
+// https://leetcode.cn/problems/two-sum/
 
 use std::{collections::HashMap, hint};
 
@@ -22,7 +21,7 @@ impl Solution {
     }
 }
 
-struct Solution;
+pub struct Solution;
 
 #[cfg(test)]
 mod test {

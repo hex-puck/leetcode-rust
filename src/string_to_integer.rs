@@ -1,5 +1,4 @@
-// https://leetcode-cn.com/problems/string-to-integer-atoi/
-#![allow(dead_code)]
+// https://leetcode.cn/problems/string-to-integer-atoi/
 
 impl Solution {
     pub fn my_atoi(s: String) -> i32 {
@@ -54,7 +53,7 @@ impl Solution {
     }
 }
 
-struct Solution;
+pub struct Solution;
 
 #[cfg(test)]
 mod test {

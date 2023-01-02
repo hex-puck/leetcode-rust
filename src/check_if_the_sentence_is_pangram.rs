@@ -1,5 +1,4 @@
-// https://leetcode-cn.com/problems/check-if-the-sentence-is-pangram/
-#![allow(dead_code)]
+// https://leetcode.cn/problems/check-if-the-sentence-is-pangram/
 
 use std::collections::HashSet;
 
@@ -18,7 +17,7 @@ impl Solution {
     }
 }
 
-struct Solution;
+pub struct Solution;
 
 #[cfg(test)]
 mod test {
