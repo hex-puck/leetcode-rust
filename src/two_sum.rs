@@ -1,17 +1,22 @@
 // https://leetcode.cn/problems/two-sum/
 
-use std::{collections::HashMap, hint};
+use std::{
+    collections::{hash_map::Entry, HashMap},
+    hint,
+};
 
 impl Solution {
     pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
         let mut cache = HashMap::new();
 
-        for (index, val) in nums.iter().enumerate() {
-            let v = target - *val;
-            if cache.contains_key(&v) {
-                return vec![cache[&v] as i32, index as i32];
-            } else {
-                cache.insert(*val, index);
+        for (index, value) in nums.into_iter().enumerate() {
+            match cache.entry(target - value) {
+                Entry::Occupied(oe) => {
+                    return vec![*oe.get() as i32, index as i32];
+                }
+                Entry::Vacant(_) => {
+                    cache.insert(value, index);
+                }
             }
         }
 
